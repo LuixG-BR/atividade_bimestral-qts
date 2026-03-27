@@ -10,5 +10,5 @@ def validar_pedido(item, quantidade, valor_unitario):
     else:
         return "Pedido inválido"
 
-print(validar_pedido("",2,0))
+print(validar_pedido("",2,1))
     
