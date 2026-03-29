@@ -17,4 +17,4 @@ def test_validar_pedido_quantidade_invalida():
     assert validar_pedido("teste", 0, 5) == "Pedido inválido"
 
 def test_validar_pedido_error():
-    assert validar_pedido("",2,2) == "pedido Valido"
+    assert validar_pedido("",2,2) == "Pedido válido"
